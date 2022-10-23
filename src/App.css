@@ -51,10 +51,50 @@ body {
 .user button {
 	display: inline-block;
 	display: inline-block;
-	background-color: #7b38d8;
-	border-radius: 2px;
+	background-color: rgba(222, 339, 248, 0.887);
+	border-radius: 3px;
 	border: 1px solid #cccccc;
-	color: #563d7c;
+	color: rgb(97, 4, 184);
 	cursor: pointer;
 	margin: 15px;
+	font-size: 18px;
+}
+
+input,
+textarea {
+	font-family: 'Nunito', sans-serif;
+}
+
+.create-post {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	margin-top: 50px;
+	padding: 30px 20px;
+	width: 320px;
+	border-radius: 7px;
+	background-color: white;
+	backdrop-filter: blur(5px);
+	background-color: #563d7c;
+	overflow: hidden;
+}
+
+input,
+textarea {
+	padding: 8px 10px;
+	margin: 3px 8px 16px 8px;
+	background-color: rgba(222, 339, 248, 0.887);
+	border: 0px transparent;
+	border-radius: 5px;
+	color: rgb(97, 4, 184);
+	font-size: 16px;
+	z-index: 1;
+}
+
+.submitForm:hover {
+	cursor: pointer;
 }
